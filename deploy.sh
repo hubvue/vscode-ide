@@ -1,1 +1,1 @@
-docker push haozhi/vscode
+docker push cckim/vscode-ide

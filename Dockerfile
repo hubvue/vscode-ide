@@ -11,4 +11,4 @@ CMD ["vscode", "/workspace", "--host=0.0.0.0", "--auth=none"]
 
 EXPOSE 8080
 
-LABEL name='vscode' version='1.41.1' description='vscode' by='github.com/haozi'
+LABEL name='vscode' version='1.41.1' description='vscode' by='github.com/hubvue'
