@@ -1,17 +1,57 @@
 {
   "debug.console.fontSize": 14,
-  "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace, CSS Mono",
-  "editor.fontSize": 14,
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontSize": 17,
   "editor.renderWhitespace": "selection",
   "editor.tabSize": 2,
-  "files.autoSave": "onFocusChange",
+  "window.zoomLevel": 0.5,
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.shell.linux": "/bin/zsh",
-  "vsicons.dontShowNewVersionMessage": true,
-  "workbench.colorTheme": "Monokai Dimmed",
+  // json 注释
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  // eslint-format
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.sass": "sass-formatter",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "printWidth": 300,
+      "wrapAttributes": true,
+      "sortAttributes": true
+    },
+    "prettier": {
+      "singleQuote": true,
+      "semi": false,
+      "prseWrap": "never",
+      "printWidth": 160
+    }
+  },
+  "prettier.disableLanguages": ["vue"],
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "stylusSupremacy.insertColons": false,
+  "stylusSupremacy.insertSemicolons": false,
+  "stylusSupremacy.insertBraces": false,
+  "stylusSupremacy.insertNewLineAroundImports": true,
+  "stylusSupremacy.insertNewLineAroundBlocks": true,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none"
 }
