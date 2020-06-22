@@ -81,9 +81,8 @@
 		"@types/node": "^8.0.47",
 		"conventional-github-releaser": "^1.1.3",
 		"cz-conventional-changelog": "^2.0.0",
-		"typescript": "^2.9.2",
-		"vsce": "^1.73.0",
-		"vscode": "^1.1.36"
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.6"
 	},
 	"config": {
 		"commitizen": {
@@ -95,8 +94,8 @@
 		"vscode-css-languageservice": "^3.0.12"
 	},
 	"__metadata": {
-		"id": "sysoev.language-stylus",
-		"publisherId": "sysoev",
+		"id": "93ecc089-f396-47b4-8676-7fa3bc156a2c",
+		"publisherId": "c0885fa3-3b61-4f83-b035-0d441817979b",
 		"publisherDisplayName": "sysoev"
 	}
 }
