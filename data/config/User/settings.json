@@ -4,7 +4,6 @@
   "editor.fontSize": 17,
   "editor.renderWhitespace": "selection",
   "editor.tabSize": 2,
-  "window.zoomLevel": 0.5,
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
