@@ -5,3 +5,5 @@ data/config/heartbeat
 data/config/machineid
 data/config/languagepacks.json
 data/config/extensions/.obsolete
+data/config/User/Backups/
+data/config/User/snippets
