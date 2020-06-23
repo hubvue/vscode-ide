@@ -1,1 +1,0 @@
-See https://github.com/ThisIsManta/vscode-stylus-supremacy/releases
