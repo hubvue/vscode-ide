@@ -1,0 +1,24 @@
+{
+  "name": "vscode-ide",
+  "version": "1.0.0",
+  "description": "fork https://github.com/haozi/vscode-docker",
+  "main": "index.js",
+  "scripts": {
+    "build": "sh build.sh",
+    "start": "sh start.sh",
+    "dev": "sh dev.sh",
+    "test": "sh test.sh",
+    "deploy": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubvue/vscode-ide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hubvue/vscode-ide/issues"
+  },
+  "homepage": "https://github.com/hubvue/vscode-ide#readme"
+}
