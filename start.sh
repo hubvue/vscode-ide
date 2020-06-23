@@ -1,1 +1,1 @@
-docker run -it --rm -p 8080:8080 -v $PWD:/workspace vscode-ide
+docker run -it  -p 8080:8080 -v $PWD:/workspace -d vscode-ide
