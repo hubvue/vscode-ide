@@ -8,6 +8,6 @@ services:
     volumes:
       - '$PWD:/workspace'
     environment:
-      PASSWORD: goaway0806
+      PASSWORD: <password>
     restart: always
     user: '0:0'
