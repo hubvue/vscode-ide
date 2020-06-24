@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  vscode-ide:
+    build: .
+    ports:
+      - '8000:8080'
+    volumes:
+      - '$PWD:/workspace'
+    environment:
+      PASSWORD: goaway0806
+    restart: always
+    user: '0:0'
